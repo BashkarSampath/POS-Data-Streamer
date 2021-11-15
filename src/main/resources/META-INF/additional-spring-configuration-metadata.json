@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "sftp.host",
+    "type": "java.lang.String",
+    "description": "A description for 'sftp.host'"
+  },
+  {
+    "name": "sftp.port",
+    "type": "java.lang.String",
+    "description": "A description for 'sftp.port'"
+  },
+  {
+    "name": "sftp.username",
+    "type": "java.lang.String",
+    "description": "A description for 'sftp.username'"
+  },
+  {
+    "name": "sftp.password",
+    "type": "java.lang.String",
+    "description": "A description for 'sftp.password'"
+  },
+  {
+    "name": "sftp.file-directory",
+    "type": "java.lang.String",
+    "description": "A description for 'sftp.file-directory'"
+  },
+  {
+    "name": "spring.config.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.config.enabled'"
+  },
+  {
+    "name": "springdoc.api-docs.path",
+    "type": "java.lang.String",
+    "description": "A description for 'springdoc.api-docs.path'"
+  },
+  {
+    "name": "springdoc.swagger-ui.path",
+    "type": "java.lang.String",
+    "description": "A description for 'springdoc.swagger-ui.path'"
+  },
+  {
+    "name": "parallelism.corepoolsize",
+    "type": "java.lang.String",
+    "description": "A description for 'parallelism.corepoolsize'"
+  },
+  {
+    "name": "parallelism.maxpoolsize",
+    "type": "java.lang.String",
+    "description": "A description for 'parallelism.maxpoolsize'"
+  },
+  {
+    "name": "parallelism.queueCapacity",
+    "type": "java.lang.String",
+    "description": "A description for 'parallelism.queueCapacity'"
+  }
+]}

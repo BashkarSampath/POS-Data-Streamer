@@ -1,0 +1,37 @@
+server: 
+  port: 8441
+  ssl: 
+    enabled: false
+
+sftp:
+  host: '192.168.2.22'
+  port: 22
+  username: 'tester'
+  password: 'password'
+  file-directory: '/appshare/ul90/posdata'
+  
+spring:
+  config: 
+    enabled: true
+    import: "optional:configserver:"
+  jackson: 
+    default-property-inclusion: non-null
+    deserialization: 
+      fail-on-unknown-properties: true
+      fail-on-unresolved-object-ids: true
+    mapper: 
+      accept-case-insensitive-enums: true
+  main: 
+    allow-bean-definition-overriding: true
+    banner-mode: console
+  mvc: 
+    throw-exception-if-no-handler-found: true
+                 
+springdoc: 
+  api-docs.path: /api-docs
+  swagger-ui.path: /swagger-ui.html
+  
+parallelism: 
+  corepoolsize: 8
+  maxpoolsize: 16
+  queueCapacity: 10000
